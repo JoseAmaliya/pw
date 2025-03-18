@@ -11,7 +11,7 @@ select
 {
 width: 100%;
 padding:8px; margin:5px 10;
-border: 5px solid grey;
+border: 5px solid black;
 border-radius:5px;
 display: block;
 }
@@ -20,8 +20,8 @@ button,
 input[type=submit],
 input[type=button]
 {
-color:white; background:skyblue;
-border: 3px solid transparent;
+color:white; background:pink;
+border: 5px solid transparent;
 cursor:pointer;
 align-items: center;
 }
@@ -31,8 +31,8 @@ button:hover,input[type=submit]:hover,input[type=button]:hover{background:aqua; 
 ul {margin: 15; padding: 10; list-style-type:none;}
 li {padding: 120; left:10; }
 
-table {border-collapse:collapse; border-spacing:0; width:100%; color: #000;}
-table th, table td { border:none; text-align:left; padding:8px; }
+table {border-collapse:collapse; border-spacing:10; width:100%; color: #000;}
+table th, table td { border:none; text-align:left; padding:18px; }
 table tr { background:#f8f8f8; }
 table tr:nth-child(even){ background:#fff;}
 table th { height:47px; }
