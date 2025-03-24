@@ -14,11 +14,11 @@ body {
 
 input,
 select {
-    width: 100%;
-    padding: 10px;
-    margin: 7px 10px; 
-    border: 3px solid grey; 
-    border-radius: 7px;
+    width: 30%;
+    padding: 5px;
+    margin: 5px 7px; 
+    border: 1px solid grey; 
+    border-radius: 5px;
     display: block;
 }
 
@@ -27,18 +27,18 @@ input[type=submit],
 input[type=button] {
     color: white;
     background: skyblue;
-    border: 3px solid transparent;
+    border: 1px solid transparent;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
-    padding: 10px 15px;
+    padding: 5px 7px;
     border-radius: 5px;
 }
 
 button:hover,
 input[type=submit]:hover,
 input[type=button]:hover {
-    background: aqua;
+    background: pink;
 }
 
 ul {
