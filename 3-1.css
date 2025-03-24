@@ -1,116 +1,38 @@
-{
-    box-sizing: border-box;
-}
-
-body {
-    margin: 12px; 
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
+* { box-sizing: border-box; }
+body{margin: 5;
+font-family:Helvetica,Arial,sans-serif;
+font-size:  15px;
+line-height: 1.5;
+letter-spacing: 0.5px;
 }
 
 input,
-select {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 10px; 
-    border: 2px solid black; 
-    border-radius: 7px;
-    display: block;
+select
+{
+width: 100%;
+padding:10px; margin:7px 10;
+border: 5px solid grey;
+border-radius:7px;
+display: block;
 }
 
 button,
 input[type=submit],
-input[type=button] {
-    color: white;
-    background: pink;
-    border: 2px solid transparent;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 15px;
-    border-radius: 5px;
+input[type=button]
+{
+color:white; background:skyblue;
+border: 5px solid transparent;
+cursor:pointer;
+align-items: center;
 }
 
-button:hover,
-input[type=submit]:hover,
-input[type=button]:hover {
-    background: aqua;
-}
+button:hover,input[type=submit]:hover,input[type=button]:hover{background:aqua; }
 
-ul {
-    margin: 15px; 
-    padding: 15px;
-    list-style-type: none;
-}
+ul {margin: 10; padding: 5; list-style-type:none;}
+li {padding: 15; left:10; }
 
-li {
-    padding: 10px; 
-    margin-left: 10px;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-    color: #000;
-}
-
-table th,
-table td {
-    border: none;
-    text-align: left;
-    padding: 12px; 
-}
-
-table tr {
-    background: #f8f8f8;
-}
-
-table tr:nth-child(even) {
-    background: #fff;
-}
-
-table th {
-    height: 47px;
-}
-
-@media (max-width: 768px) {
-    input, select {
-        width: 100%;
-        padding: 8px;
-    }
-
-    button,
-    input[type=submit],
-    input[type=button] {
-        padding: 8px 12px;
-        font-size: 12px;
-    }
-
-    table th,
-    table td {
-        padding: 8px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-
-    button,
-    input[type=submit],
-    input[type=button] {
-        padding: 6px 10px;
-        font-size: 11px;
-    }
-
-    ul {
-        padding: 10px;
-    }
-
-    li {
-        padding: 8px;
-    }
-}
+table {border-collapse:collapse; border-spacing:10; width:100%; color: #000;}
+table th, table td { border:none; text-align:left; padding:15px; }
+table tr { background:#f8f8f8; }
+table tr:nth-child(even){ background:#fff;}
+table th { height:30px; }
