@@ -10,9 +10,9 @@ input,
 select
 {
 width: 100%;
-padding:8px; margin:5px 10;
-border: 5px solid black;
-border-radius:5px;
+padding: 10px; margin:5px 10;
+border: 7px solid black;
+border-radius:7px;
 display: block;
 }
 
@@ -28,8 +28,8 @@ align-items: center;
 
 button:hover,input[type=submit]:hover,input[type=button]:hover{background:aqua; }
 
-ul {margin: 15; padding: 10; list-style-type:none;}
-li {padding: 120; left:10; }
+ul {margin: 15; padding: 15; list-style-type:none;}
+li {padding: 50; left:10; }
 
 table {border-collapse:collapse; border-spacing:10; width:100%; color: #000;}
 table th, table td { border:none; text-align:left; padding:18px; }
