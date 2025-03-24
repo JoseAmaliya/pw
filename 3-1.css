@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 12px; /* Perbaikan: margin harus memiliki satuan */
+    margin: 12px; 
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.5;
@@ -14,8 +14,8 @@ input,
 select {
     width: 100%;
     padding: 10px;
-    margin: 5px 10px; /* Perbaikan: margin harus memiliki satuan */
-    border: 2px solid black; /* Mengurangi border agar lebih rapi */
+    margin: 5px 10px; 
+    border: 2px solid black; 
     border-radius: 7px;
     display: block;
 }
@@ -40,13 +40,13 @@ input[type=button]:hover {
 }
 
 ul {
-    margin: 15px; /* Perbaikan: harus ada satuan */
+    margin: 15px; 
     padding: 15px;
     list-style-type: none;
 }
 
 li {
-    padding: 10px; /* Perbaikan: padding 50 terlalu besar */
+    padding: 10px; 
     margin-left: 10px;
 }
 
@@ -60,7 +60,7 @@ table th,
 table td {
     border: none;
     text-align: left;
-    padding: 12px; /* Perbaikan: ukuran padding lebih seimbang */
+    padding: 12px; 
 }
 
 table tr {
@@ -75,7 +75,6 @@ table th {
     height: 47px;
 }
 
-/* Media Query untuk tampilan responsif */
 @media (max-width: 768px) {
     input, select {
         width: 100%;
