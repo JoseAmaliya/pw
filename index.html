@@ -46,7 +46,7 @@
 
 <script type="module">
 // Import Supabase client dari CDN
-import { createClient } from 'https://supabase.com/dashboard/project/ljvegfbiuvhcrjjdufhv/editor/17642?sort=Isi:desc'
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'
 
 
 const SUPABASE_URL = 'https://ljvegfbiuvhcrjjdufhv.supabase.co'
@@ -69,7 +69,7 @@ const content = document.getElementById('content')
 
 // Fungsi load data ke tabel
 async function loadData() {
-  const { data, error } = await supabase.from('web').select('*').order('id')
+  const { data, error } = await supabase.from('web1').select('*').order('id')
   if (error) {
     alert('Error loading data: ' + error.message)
     return
